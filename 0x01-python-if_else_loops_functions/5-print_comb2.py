@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-for numbers in range(100):
-    formatted_number = str(numbers).zfill(2)
-    print(formatted_number, end=', ' if numbers < 99 else '\n')
+for number in range(0, 100):
+    if number == 99:
+        print("{:02}".format(number))
+    else:
+        print("{:02}".format(number), end=', ')
+
