@@ -8,4 +8,3 @@ def element_at(my_list, idx):
         return none
     element = my_list[idx]
     return element
-
