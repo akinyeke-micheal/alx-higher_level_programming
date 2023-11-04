@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
-    my_list_lenght = len(my_list)
+    my_list_lenght = len(my_list) - 1
 
     if idx < 0:
-        return none
-    elif idx > my_list_lenght - 1:
-        return none
+        return 'none'
+    elif idx > my_list_lenght:
+        return 'none'
     element = my_list[idx]
     return element
